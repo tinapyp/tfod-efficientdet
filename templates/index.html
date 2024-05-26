@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eff-Scan</title>
+  </head>
+  <body>
+    <h1>Eff-Scan</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" />
+      <button type="submit">Upload Photo</button>
+    </form>
+    <button onclick="startCamera()">Start Camera</button>
+    <div id="camera" style="display: none;">
+      <video id="video" width="640" height="480" autoplay></video>
+      <button id="capture" onclick="captureImage()">Capture</button>
+      <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+    <form id="captureForm" action="/capture" method="post" enctype="multipart/form-data" style="display:none;">
+      <input type="hidden" name="image" id="imageData" />
+      <button type="submit">Submit</button>
+    </form>
+    <script src="{{ url_for('static', filename='script/' + 'script.js') }}"></script>
+  </body>
+</html>

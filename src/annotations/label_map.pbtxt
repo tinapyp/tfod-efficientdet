@@ -1,0 +1,40 @@
+item { 
+	name:'biskuit-selamat'
+	id:1
+}
+item { 
+	name:'chitato-lite'
+	id:2
+}
+item { 
+	name:'chitato-sapi'
+	id:3
+}
+item { 
+	name:'fitbar'
+	id:4
+}
+item { 
+	name:'pocari'
+	id:5
+}
+item { 
+	name:'nissin-cracker'
+	id:6
+}
+item { 
+	name:'popmie'
+	id:7
+}
+item { 
+	name:'roma-kelapa'
+	id:8
+}
+item { 
+	name:'teh-botol'
+	id:9
+}
+item { 
+	name:'twist'
+	id:10
+}

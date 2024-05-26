@@ -1,0 +1,7 @@
+__pycache__
+data
+models/pre-trained-models
+models/tuned-model/eval
+models/tuned-model/train
+models/tuned-model/export
+src/models
