@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #ff6f60;
+}
+
+.header button {
+  margin-left: 10px;
+  color: white;
+  background-color: #ff6f60;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.result img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-buttons {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+#camera {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#camera video {
+  border: 1px solid #000;
+}
